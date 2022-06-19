@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+* {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body {
+   background-image: url(https://cdn.shopify.com/s/files/1/0076/0994/2086/articles/kunal-shinde--f0YLss50Bs-unsplash_1500x994_crop_bottom.jpg?v=1624295093);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+h1 {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 4px black;
+    color: white;
+}
+
+h1:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    background-color: black;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+    padding: 2px 2px;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    margin: 15px;
+    transition:all 1s;
+    border-radius: 5px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+}
